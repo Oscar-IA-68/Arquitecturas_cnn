@@ -1,19 +1,17 @@
-# ===== Core DL =====
+# Python 3.11 / Windows
 tensorflow==2.15.1
 
-# ===== Scientific stack (versiones compatibles con TF 2.15) =====
+# Scientific stack
 numpy==1.26.4
 pandas==2.2.2
 matplotlib==3.8.4
 scikit-learn==1.4.2
 
-# ===== Utilidades =====
+# Utilities
 tqdm==4.66.4
 h5py==3.10.0
 protobuf==4.25.3
 
-# ===== Interpretabilidad (Grad-CAM) =====
-tf-keras-vis==0.8.4
-
-# ===== (Opcional) Augmentations extra =====
+# Interpretability and augmentation
+tf-keras-vis==0.8.7
 imgaug==0.4.0
