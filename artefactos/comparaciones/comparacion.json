@@ -1,0 +1,20 @@
+[
+  {
+    "modelo": "vgg16",
+    "test_loss": 0.7304645776748657,
+    "test_accuracy": 0.7548999786376953,
+    "parametros": 304810
+  },
+  {
+    "modelo": "resnet50",
+    "test_loss": 1.077770709991455,
+    "test_accuracy": 0.6140000224113464,
+    "parametros": 309994
+  },
+  {
+    "modelo": "mobilenet",
+    "test_loss": 0.798471212387085,
+    "test_accuracy": 0.7236999869346619,
+    "parametros": 2340618
+  }
+]

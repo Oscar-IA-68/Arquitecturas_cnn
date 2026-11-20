@@ -1,0 +1,16 @@
+{
+  "arquitectura": "resnet50",
+  "seed": 42,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "epochs_maximas": 15,
+  "validation_size": 5000,
+  "split": "estratificado",
+  "input_shape": [
+    64,
+    64,
+    3
+  ],
+  "num_classes": 10,
+  "preprocesamiento": "escalado interno de la arquitectura"
+}
