@@ -24,6 +24,7 @@ Arquitecturas_cnn/
     ├── modelos/
     ├── historiales/
     ├── configuraciones/
+    ├── graficas/
     └── comparaciones/
 ```
 
@@ -32,6 +33,7 @@ La carpeta `artefactos/` está destinada a los archivos generados durante los ex
 - `modelos/`: modelos Keras guardados en formato `.keras`.
 - `historiales/`: métricas de entrenamiento y validación en formato `.csv`.
 - `configuraciones/`: semillas, hiperparámetros y parámetros del experimento en formato `.json`.
+- `graficas/`: imágenes PNG utilizadas para visualizar las curvas de entrenamiento y validación y los resultados de prueba.
 - `comparaciones/`: métricas finales de prueba en formato `.csv` y `.json`.
 
 El dataset CIFAR-10 se descarga mediante `keras.datasets.cifar10.load_data()` y se administra usando la caché de Keras; no es necesario incluirlo dentro del repositorio.
