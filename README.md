@@ -11,8 +11,6 @@ Proyecto académico de la universidad **Hybridge** para la asignatura de Sistema
 - Persistir los modelos, historiales, configuraciones y resultados.
 - Analizar experimentalmente el comportamiento de cada modelo.
 
-La conclusión final de la comparación debe escribirse en la sección **Conclusiones** del notebook.
-
 ## Contenido del proyecto
 
 ```text
@@ -36,7 +34,6 @@ La carpeta `artefactos/` está destinada a los archivos generados durante los ex
 - `graficas/`: imágenes PNG utilizadas para visualizar las curvas de entrenamiento y validación y los resultados de prueba.
 - `comparaciones/`: métricas finales de prueba en formato `.csv` y `.json`.
 
-El dataset CIFAR-10 se descarga mediante `keras.datasets.cifar10.load_data()` y se administra usando la caché de Keras; no es necesario incluirlo dentro del repositorio.
 
 ## Flujo del notebook
 
@@ -90,7 +87,7 @@ Con el entorno virtual activado, instalar las dependencias con:
 pip install -r requirements.txt
 ```
 
-Después, abrir `Arquitecturas_cnn.ipynb` en Jupyter o Visual Studio Code y ejecutar las celdas en orden.
+Después, abrir `Arquitecturas_cnn.ipynb` en Jupyter o Visual Studio Code y ejecutar las celdas en orden o ver los resultados o pipelines de los modelos CCN.
 
 
 ## Conclusiones
